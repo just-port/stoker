@@ -18,6 +18,7 @@ export default antfu({
     "ts/explicit-function-return-type": ["off"],
     "perfectionist/sort-imports": ["error", {
       tsconfigRootDir: ".",
+      newlinesBetween: "always",
     }],
     "unicorn/filename-case": ["error", {
       case: "kebabCase",
